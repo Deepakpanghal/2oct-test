@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-image: url(./login.jpg);
+}
+.main {
+    margin-top: 50px;
+    width: 500px;
+    background-color: rgba(0,0,0,0.9);
+    display: block;
+}
+input{
+    margin: 50px 10px 5px 10px;
+    border: 1px solid white;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    width: 470px;
+}
+
+button{
+    height: 30px;
+    background-color: rgba(0,0,0,0.9);
+    width: 300px;
+    border: 1px solid red;
+    margin: 30px 20px 10px 110px;
+    border-radius: 10px;
+    color: red;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: white;
+}
